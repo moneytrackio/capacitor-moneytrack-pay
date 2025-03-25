@@ -1,3 +1,6 @@
-export interface WebviewPluginPlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
+export interface WebviewPluginPlugin {  
+  openAddCard(): Promise<void>;
+  openPay(): Promise<void>;
+  openMap(): Promise<void> ;
+  openOnboarding(options: {payload: string}): Promise<void>;
 }

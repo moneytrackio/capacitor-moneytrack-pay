@@ -13,24 +13,52 @@ npx cap sync
 
 <docgen-index>
 
-* [`echo(...)`](#echo)
+* [`openAddCard()`](#openaddcard)
+* [`openPay()`](#openpay)
+* [`openMap()`](#openmap)
+* [`openOnboarding(...)`](#openonboarding)
 
 </docgen-index>
 
 <docgen-api>
 <!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
 
-### echo(...)
+### openAddCard()
 
 ```typescript
-echo(options: { value: string; }) => Promise<{ value: string; }>
+openAddCard() => Promise<void>
 ```
 
-| Param         | Type                            |
-| ------------- | ------------------------------- |
-| **`options`** | <code>{ value: string; }</code> |
+--------------------
 
-**Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
+
+### openPay()
+
+```typescript
+openPay() => Promise<void>
+```
+
+--------------------
+
+
+### openMap()
+
+```typescript
+openMap() => Promise<void>
+```
+
+--------------------
+
+
+### openOnboarding(...)
+
+```typescript
+openOnboarding(options: { payload: string; }) => Promise<void>
+```
+
+| Param         | Type                              |
+| ------------- | --------------------------------- |
+| **`options`** | <code>{ payload: string; }</code> |
 
 --------------------
 
