@@ -3,6 +3,10 @@ import { WebPlugin } from '@capacitor/core';
 import type { WebviewPluginPlugin } from './definitions';
 
 export class WebviewPluginWeb extends WebPlugin implements WebviewPluginPlugin {
+  async setEnvironment(options: { environment: 'production' | 'staging'; }): Promise<void> {
+    console.log(`Setting environment: ${options}`);
+  }
+
   async openAddCard(): Promise<void> {
     this.openWebView('http://localhost:8080/#/add-card');
   }
