@@ -13,6 +13,7 @@ npx cap sync
 
 <docgen-index>
 
+* [`setEnvironment(...)`](#setenvironment)
 * [`openAddCard()`](#openaddcard)
 * [`openPay()`](#openpay)
 * [`openMap()`](#openmap)
@@ -22,6 +23,19 @@ npx cap sync
 
 <docgen-api>
 <!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
+
+### setEnvironment(...)
+
+```typescript
+setEnvironment(options: { environment: 'production' | 'staging'; }) => Promise<void>
+```
+
+| Param         | Type                                                     |
+| ------------- | -------------------------------------------------------- |
+| **`options`** | <code>{ environment: 'production' \| 'staging'; }</code> |
+
+--------------------
+
 
 ### openAddCard()
 
