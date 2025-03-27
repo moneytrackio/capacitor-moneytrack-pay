@@ -1,0 +1,77 @@
+{
+  "api": {
+    "name": "WebviewPluginPlugin",
+    "slug": "webviewpluginplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "setEnvironment",
+        "signature": "(options: { environment: 'production' | 'staging'; }) => Promise<void>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ environment: 'production' | 'staging'; }"
+          }
+        ],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "setenvironment"
+      },
+      {
+        "name": "openAddCard",
+        "signature": "() => Promise<void>",
+        "parameters": [],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "openaddcard"
+      },
+      {
+        "name": "openPay",
+        "signature": "() => Promise<void>",
+        "parameters": [],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "openpay"
+      },
+      {
+        "name": "openMap",
+        "signature": "() => Promise<void>",
+        "parameters": [],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "openmap"
+      },
+      {
+        "name": "openOnboarding",
+        "signature": "(options: { payload: string; }) => Promise<void>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ payload: string; }"
+          }
+        ],
+        "returns": "Promise<void>",
+        "tags": [],
+        "docs": "",
+        "complexTypes": [],
+        "slug": "openonboarding"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}
