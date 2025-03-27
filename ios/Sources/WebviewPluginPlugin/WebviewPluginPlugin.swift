@@ -45,15 +45,15 @@ public class WebviewPluginPlugin: CAPPlugin, CAPBridgedPlugin {
   }
 
   @objc func openAddCard(_ call: CAPPluginCall) {
-    openWebView(url: "http://localhost:8080/#/add-card", call: call)
+    openWebView(url: "\(apiUrl)/#/add-card", call: call)
   }
 
   @objc func openPay(_ call: CAPPluginCall) {
-    openWebView(url: "http://localhost:8080/#/pay", call: call)
+    openWebView(url: "\(apiUrl)/#/pay", call: call)
   }
 
   @objc func openMap(_ call: CAPPluginCall) {
-    openWebView(url: "http://localhost:8080/#/map", call: call)
+    openWebView(url: "\(apiUrl)/#/map", call: call)
   }
 
   @objc func openOnboarding(_ call: CAPPluginCall) {
@@ -62,7 +62,7 @@ public class WebviewPluginPlugin: CAPPlugin, CAPBridgedPlugin {
       return
     }
     openWebView(
-      url: "http://localhost:8080/#/onboarding?payload=\(payload)",
+      url: "\(apiUrl)/#/onboarding?payload=\(payload)",
       call: call
     )
   }
