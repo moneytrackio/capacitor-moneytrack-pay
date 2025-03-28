@@ -12,7 +12,7 @@ public class WebviewPluginPlugin: CAPPlugin, CAPBridgedPlugin {
   public let identifier = "WebviewPluginPlugin"
   public let jsName = "WebviewPlugin"
   private static let productionUrl = "https://webpayment.moneytrack.io"
-  private static let stagingUrl = "https://webpayment-staging.moneytrack.io"
+  private static let stagingUrl = "https://webpayment.staging.moneytrack.io"
   
   enum Environment: String {
     case production = "production"
