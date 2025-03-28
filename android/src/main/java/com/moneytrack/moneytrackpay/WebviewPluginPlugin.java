@@ -15,7 +15,7 @@ import com.getcapacitor.annotation.CapacitorPlugin;
 @CapacitorPlugin(name = "WebviewPlugin")
 public class WebviewPluginPlugin extends Plugin {
     public static final String productionUrl = "https://webpayment.moneytrack.io";
-    public static final String stagingUrl = "https://webpayment.jestaging.moneytrack.io";
+    public static final String stagingUrl = "https://webpayment.staging.moneytrack.io";
     private String apiUrl = productionUrl;
 
     @PluginMethod
